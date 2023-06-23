@@ -5,7 +5,6 @@ int main() {
 int numerosecreto = 9;
 int chute;
 int acertou = (chute == numerosecreto);
-int errou  = (chute != numerosecreto);
 
 	printf("Bem-vindo ao jogo de adivinhação!\n");
 	printf("Insira o seu chute abaixo: \n");
