@@ -5,6 +5,7 @@ int main() {
 int numerosecreto = 9;
 int chute;
 int acertou = (chute == numerosecreto);
+for();
 
 	printf("Bem-vindo ao jogo de adivinhação!\n");
 	printf("Insira o seu chute abaixo: \n");
@@ -19,7 +20,7 @@ int acertou = (chute == numerosecreto);
 		if(chute>numerosecreto){
 			printf("e o seu palpite foi maior que o  número secreto!\n");
 		}
-		if(chute<numerosecreto){
+		else {
 			printf("e  o seu palpite foi menor que o  número secreto!\n");
 		} 
 	}
